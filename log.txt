@@ -1,0 +1,108 @@
+[debug_scroll] 🔄 Conversation changed, reinitializing...
+VirtualMessageList.tsx:406 [debug_scroll] 🔝 atTopStateChange: true, canLoadMore: true, isLoading: false
+VirtualMessageList.tsx:221 [debug_scroll] ⬆️ Load more triggered
+VirtualMessageList.tsx:415 [debug_scroll] 🔽 atBottomStateChange: true, canLoadMore: true, isLoading: false
+VirtualMessageList.tsx:241 [debug_scroll] ⬇️ Load more at bottom triggered
+VirtualMessageList.tsx:246 [debug_scroll] ✅ Load more at bottom completed
+VirtualMessageList.tsx:141 [debug_scroll] 📥 Messages changed: 20 -> 40 (diff: 20)
+VirtualMessageList.tsx:145 [debug_scroll]    📥 Prepending 20 messages at top
+VirtualMessageList.tsx:148 [debug_scroll]    ✅ firstItemIndex: 100000 -> 99980
+VirtualMessageList.tsx:148 [debug_scroll]    ✅ firstItemIndex: 100000 -> 99980
+VirtualMessageList.tsx:226 [debug_scroll] ✅ Load more completed
+VirtualMessageList.tsx:415 [debug_scroll] 🔽 atBottomStateChange: true, canLoadMore: true, isLoading: false
+VirtualMessageList.tsx:241 [debug_scroll] ⬇️ Load more at bottom triggered
+VirtualMessageList.tsx:246 [debug_scroll] ✅ Load more at bottom completed
+VirtualMessageList.tsx:406 [debug_scroll] 🔝 atTopStateChange: false, canLoadMore: true, isLoading: false
+VirtualMessageList.tsx:415 [debug_scroll] 🔽 atBottomStateChange: false, canLoadMore: true, isLoading: false
+VirtualMessageList.tsx:415 [debug_scroll] 🔽 atBottomStateChange: true, canLoadMore: true, isLoading: false
+VirtualMessageList.tsx:241 [debug_scroll] ⬇️ Load more at bottom triggered
+VirtualMessageList.tsx:246 [debug_scroll] ✅ Load more at bottom completed
+VirtualMessageList.tsx:415 [debug_scroll] 🔽 atBottomStateChange: false, canLoadMore: true, isLoading: false
+VirtualMessageList.tsx:415 [debug_scroll] 🔽 atBottomStateChange: true, canLoadMore: true, isLoading: false
+VirtualMessageList.tsx:241 [debug_scroll] ⬇️ Load more at bottom triggered
+VirtualMessageList.tsx:246 [debug_scroll] ✅ Load more at bottom completed
+VirtualMessageList.tsx:141 [debug_scroll] 📥 Messages changed: 40 -> 41 (diff: 1)
+VirtualMessageList.tsx:145 [debug_scroll]    📥 Prepending 1 messages at top
+VirtualMessageList.tsx:148 [debug_scroll]    ✅ firstItemIndex: 99980 -> 99979
+VirtualMessageList.tsx:148 [debug_scroll]    ✅ firstItemIndex: 99980 -> 99979
+VirtualMessageList.tsx:415 [debug_scroll] 🔽 atBottomStateChange: false, canLoadMore: true, isLoading: false
+VirtualMessageList.tsx:415 [debug_scroll] 🔽 atBottomStateChange: true, canLoadMore: true, isLoading: false
+VirtualMessageList.tsx:241 [debug_scroll] ⬇️ Load more at bottom triggered
+VirtualMessageList.tsx:141 [debug_scroll] 📥 Messages changed: 41 -> 61 (diff: 20)
+VirtualMessageList.tsx:153 [debug_scroll]    📤 Appending 20 messages at bottom
+VirtualMessageList.tsx:246 [debug_scroll] ✅ Load more at bottom completed
+VirtualMessageList.tsx:415 [debug_scroll] 🔽 atBottomStateChange: false, canLoadMore: true, isLoading: false
+VirtualMessageList.tsx:415 [debug_scroll] 🔽 atBottomStateChange: true, canLoadMore: true, isLoading: false
+VirtualMessageList.tsx:241 [debug_scroll] ⬇️ Load more at bottom triggered
+VirtualMessageList.tsx:141 [debug_scroll] 📥 Messages changed: 61 -> 81 (diff: 20)
+VirtualMessageList.tsx:153 [debug_scroll]    📤 Appending 20 messages at bottom
+VirtualMessageList.tsx:246 [debug_scroll] ✅ Load more at bottom completed
+VirtualMessageList.tsx:415 [debug_scroll] 🔽 atBottomStateChange: false, canLoadMore: true, isLoading: false
+VirtualMessageList.tsx:415 [debug_scroll] 🔽 atBottomStateChange: true, canLoadMore: true, isLoading: false
+VirtualMessageList.tsx:241 [debug_scroll] ⬇️ Load more at bottom triggered
+VirtualMessageList.tsx:246 [debug_scroll] ✅ Load more at bottom completed
+VirtualMessageList.tsx:415 [debug_scroll] 🔽 atBottomStateChange: false, canLoadMore: true, isLoading: false
+VirtualMessageList.tsx:415 [debug_scroll] 🔽 atBottomStateChange: true, canLoadMore: true, isLoading: false
+VirtualMessageList.tsx:241 [debug_scroll] ⬇️ Load more at bottom triggered
+VirtualMessageList.tsx:141 [debug_scroll] 📥 Messages changed: 41 -> 61 (diff: 20)
+VirtualMessageList.tsx:153 [debug_scroll]    📤 Appending 20 messages at bottom
+VirtualMessageList.tsx:246 [debug_scroll] ✅ Load more at bottom completed
+VirtualMessageList.tsx:415 [debug_scroll] 🔽 atBottomStateChange: false, canLoadMore: true, isLoading: false
+VirtualMessageList.tsx:415 [debug_scroll] 🔽 atBottomStateChange: true, canLoadMore: true, isLoading: false
+VirtualMessageList.tsx:241 [debug_scroll] ⬇️ Load more at bottom triggered
+VirtualMessageList.tsx:141 [debug_scroll] 📥 Messages changed: 61 -> 81 (diff: 20)
+VirtualMessageList.tsx:153 [debug_scroll]    📤 Appending 20 messages at bottom
+VirtualMessageList.tsx:246 [debug_scroll] ✅ Load more at bottom completed
+VirtualMessageList.tsx:415 [debug_scroll] 🔽 atBottomStateChange: false, canLoadMore: true, isLoading: false
+VirtualMessageList.tsx:415 [debug_scroll] 🔽 atBottomStateChange: true, canLoadMore: true, isLoading: false
+VirtualMessageList.tsx:241 [debug_scroll] ⬇️ Load more at bottom triggered
+VirtualMessageList.tsx:141 [debug_scroll] 📥 Messages changed: 81 -> 101 (diff: 20)
+VirtualMessageList.tsx:153 [debug_scroll]    📤 Appending 20 messages at bottom
+VirtualMessageList.tsx:246 [debug_scroll] ✅ Load more at bottom completed
+VirtualMessageList.tsx:415 [debug_scroll] 🔽 atBottomStateChange: false, canLoadMore: true, isLoading: false
+VirtualMessageList.tsx:415 [debug_scroll] 🔽 atBottomStateChange: true, canLoadMore: true, isLoading: false
+VirtualMessageList.tsx:241 [debug_scroll] ⬇️ Load more at bottom triggered
+VirtualMessageList.tsx:246 [debug_scroll] ✅ Load more at bottom completed
+2VirtualMessageList.tsx:415 [debug_scroll] 🔽 atBottomStateChange: false, canLoadMore: true, isLoading: false
+VirtualMessageList.tsx:406 [debug_scroll] 🔝 atTopStateChange: true, canLoadMore: true, isLoading: false
+VirtualMessageList.tsx:221 [debug_scroll] ⬆️ Load more triggered
+VirtualMessageList.tsx:226 [debug_scroll] ✅ Load more completed
+VirtualMessageList.tsx:141 [debug_scroll] 📥 Messages changed: 26 -> 41 (diff: 15)
+VirtualMessageList.tsx:145 [debug_scroll]    📥 Prepending 15 messages at top
+VirtualMessageList.tsx:148 [debug_scroll]    ✅ firstItemIndex: 99979 -> 99964
+VirtualMessageList.tsx:148 [debug_scroll]    ✅ firstItemIndex: 99979 -> 99964
+VirtualMessageList.tsx:406 [debug_scroll] 🔝 atTopStateChange: false, canLoadMore: true, isLoading: false
+VirtualMessageList.tsx:415 [debug_scroll] 🔽 atBottomStateChange: true, canLoadMore: true, isLoading: false
+VirtualMessageList.tsx:241 [debug_scroll] ⬇️ Load more at bottom triggered
+VirtualMessageList.tsx:141 [debug_scroll] 📥 Messages changed: 41 -> 61 (diff: 20)
+VirtualMessageList.tsx:153 [debug_scroll]    📤 Appending 20 messages at bottom
+VirtualMessageList.tsx:246 [debug_scroll] ✅ Load more at bottom completed
+VirtualMessageList.tsx:415 [debug_scroll] 🔽 atBottomStateChange: false, canLoadMore: true, isLoading: false
+VirtualMessageList.tsx:415 [debug_scroll] 🔽 atBottomStateChange: true, canLoadMore: true, isLoading: false
+VirtualMessageList.tsx:241 [debug_scroll] ⬇️ Load more at bottom triggered
+VirtualMessageList.tsx:141 [debug_scroll] 📥 Messages changed: 61 -> 81 (diff: 20)
+VirtualMessageList.tsx:153 [debug_scroll]    📤 Appending 20 messages at bottom
+VirtualMessageList.tsx:246 [debug_scroll] ✅ Load more at bottom completed
+VirtualMessageList.tsx:415 [debug_scroll] 🔽 atBottomStateChange: false, canLoadMore: true, isLoading: false
+VirtualMessageList.tsx:415 [debug_scroll] 🔽 atBottomStateChange: true, canLoadMore: true, isLoading: false
+VirtualMessageList.tsx:241 [debug_scroll] ⬇️ Load more at bottom triggered
+VirtualMessageList.tsx:141 [debug_scroll] 📥 Messages changed: 81 -> 101 (diff: 20)
+VirtualMessageList.tsx:153 [debug_scroll]    📤 Appending 20 messages at bottom
+VirtualMessageList.tsx:246 [debug_scroll] ✅ Load more at bottom completed
+VirtualMessageList.tsx:415 [debug_scroll] 🔽 atBottomStateChange: false, canLoadMore: true, isLoading: false
+VirtualMessageList.tsx:415 [debug_scroll] 🔽 atBottomStateChange: true, canLoadMore: true, isLoading: false
+VirtualMessageList.tsx:241 [debug_scroll] ⬇️ Load more at bottom triggered
+VirtualMessageList.tsx:246 [debug_scroll] ✅ Load more at bottom completed
+VirtualMessageList.tsx:415 [debug_scroll] 🔽 atBottomStateChange: true, canLoadMore: true, isLoading: false
+VirtualMessageList.tsx:241 [debug_scroll] ⬇️ Load more at bottom triggered
+VirtualMessageList.tsx:141 [debug_scroll] 📥 Messages changed: 101 -> 121 (diff: 20)
+VirtualMessageList.tsx:153 [debug_scroll]    📤 Appending 20 messages at bottom
+VirtualMessageList.tsx:246 [debug_scroll] ✅ Load more at bottom completed
+VirtualMessageList.tsx:415 [debug_scroll] 🔽 atBottomStateChange: false, canLoadMore: true, isLoading: false
+VirtualMessageList.tsx:415 [debug_scroll] 🔽 atBottomStateChange: true, canLoadMore: true, isLoading: false
+VirtualMessageList.tsx:241 [debug_scroll] ⬇️ Load more at bottom triggered
+
+
+-----
+
+

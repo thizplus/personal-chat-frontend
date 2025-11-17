@@ -1,0 +1,45 @@
+{
+  render: () => {
+    const createRows = (num: number, offset: number = 0) => {
+      const heights = [20, 40, 80, 77];
+      return Array.from({
+        length: num
+      }).map((_, i) => {
+        i += offset;
+        return <div key={i} style={{
+          height: heights[i % 4],
+          borderBottom: "solid 1px #ccc",
+          background: "#fff"
+        }}>
+            {i}
+          </div>;
+      });
+    };
+    const [fetching, setFetching] = useState(false);
+    const fetchItems = async () => {
+      setFetching(true);
+      await delay(1000);
+      setFetching(false);
+    };
+    const ITEM_BATCH_COUNT = 100;
+    const [items, setItems] = useState(() => createRows(ITEM_BATCH_COUNT));
+    const fetchedCountRef = useRef(-1);
+    const count = items.length;
+    const ref = useRef<WindowVirtualizerHandle>(null);
+    return <div style={{
+      padding: "200px 100px 0px 100px"
+    }}>
+        <WindowVirtualizer ref={ref} onScroll={async () => {
+        if (!ref.current) return;
+        if (fetchedCountRef.current < count && ref.current.findEndIndex() + 50 > count) {
+          fetchedCountRef.current = count;
+          await fetchItems();
+          setItems(prev => [...prev, ...createRows(ITEM_BATCH_COUNT, prev.length)]);
+        }
+      }}>
+          {items}
+          {fetching && <Spinner />}
+        </WindowVirtualizer>
+      </div>;
+  }
+}
